@@ -24,8 +24,8 @@ function App() {
             </Navigation>
         </Header>
         <Routes>
-          <Route path='/pomidoro-react/' element={<Main/>} />
-          <Route path='/pomidoro-react/stats/' element={<Stats/>}/>
+          <Route path='/pomodoro/' element={<Main/>} />
+          <Route path='/pomodoro/stats/' element={<Stats/>}/>
         </Routes>
     </Layout>
     </BrowserRouter>
