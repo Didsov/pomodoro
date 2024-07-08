@@ -8,7 +8,7 @@ interface Logo{
 }
 export function Logo(){
     return (
-        <Link to='/pomidoro-react' className={styles.container}>
+        <Link to='/pomodoro' className={styles.container}>
             <LogoSvg/>
             <p className={styles.logoTitle}>pomodoro_box</p>
         </Link>

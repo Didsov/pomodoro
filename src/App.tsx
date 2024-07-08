@@ -7,7 +7,7 @@ import { StatsLink } from './Componets/Header/Navigation/StatsLink/StatsLink'
 import { Layout } from './Componets/Layout/Layout'
 import { Main } from './Componets/Main/Main'
 import { Stats } from './Componets/Stats/Stats'
-import { SettingsLink } from './Componets/Header/Navigation/SettingsLink/SettingsLink'
+//import { SettingsLink } from './Componets/Header/Navigation/SettingsLink/SettingsLink'
 
 
 function App() {
@@ -19,7 +19,9 @@ function App() {
         <Header>
             <Logo/>
             <Navigation>
-               <SettingsLink/>
+               {
+               //<SettingsLink/>
+              }      
                <StatsLink/>
             </Navigation>
         </Header>

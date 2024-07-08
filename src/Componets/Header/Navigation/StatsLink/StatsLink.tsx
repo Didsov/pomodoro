@@ -6,7 +6,7 @@ import { StatsSvg } from "../../../../SVG/StatsSvg";
 
 export function StatsLink(){
     return (
-        <Link to='/pomidoro-react/stats' className={styles.container}>
+        <Link to='/pomodoro/stats' className={styles.container}>
             <StatsSvg/>
             <p className={styles.title}>Статистика</p>
         </Link>
