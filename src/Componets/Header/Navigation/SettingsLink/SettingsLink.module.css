@@ -1,0 +1,20 @@
+.title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin-left: 5px;
+    color: #DC3E22;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container *{
+    stroke: #DC3E22;
+}
+.container:hover *{
+    stroke: #B7280F;
+    color: #B7280F;
+}

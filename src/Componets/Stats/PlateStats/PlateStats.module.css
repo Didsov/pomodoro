@@ -1,0 +1,47 @@
+.plate {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    
+}
+
+
+.focus{
+    background: #FFDDA9;
+}
+
+.pause{
+    background: #DFDCFE;
+}
+
+.stop{
+    background: #C4F1FF;
+}
+
+.disable{
+    background: #F4F4F4;
+
+}
+.disable * {
+    stroke: #C4C4C4;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.data * {
+    margin: 0;
+}
+.title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.dataContent{
+    font-size: 64px;
+    line-height: 76.38px;
+}

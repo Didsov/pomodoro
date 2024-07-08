@@ -1,0 +1,59 @@
+.container{
+    max-width: 733px;
+    width: 100%;
+    max-height: 500px;
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 17px;
+    color: #fff;
+
+}
+.header p{
+    margin: 10px 20px;
+}
+.taskNumber{
+    color: #999999;
+}
+.taskName{
+    color: #333;
+}
+.task{
+    margin: 0 0 32px 0;
+}
+.taskHead{
+    font-weight: 700;
+
+}
+.control{
+    display: flex;
+    flex-direction: row;
+}
+.control>*{
+    margin: 0 12.5px;
+}
+
+.work{
+    background: #DC3E22;
+}
+.rest{
+    background: #A8B64F;
+}
+.stop{
+    background: #C4C4C4;
+
+}

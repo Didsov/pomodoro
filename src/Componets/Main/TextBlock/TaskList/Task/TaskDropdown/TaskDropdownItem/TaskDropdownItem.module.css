@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 9px 14px;
+    border: none;
+    background: #fff;
+    z-index: 2;
+
+}
+.container:focus{
+    outline: none;
+}
+.container:hover{
+    background: #F4F4F4;
+
+}
+.name{
+    font-weight: 300;
+    line-height: 17px;
+    color: #999999;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.disabled * {
+    color:#999999;
+    fill: #C4C4C4;
+}
+.disabled:hover{
+    background: none;
+}

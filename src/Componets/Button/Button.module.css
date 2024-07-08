@@ -1,0 +1,39 @@
+.btn{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    font-weight: 500;
+    border: 0;
+    max-width: 146px;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.green{
+    background: #A8B64F;
+    color: #fff;
+
+}
+.green:hover{
+    background: #899441;
+}
+
+.red{
+    background: transparent;
+    border: 2px solid #DC3E22;
+    color: #DC3E22;
+}
+
+.red:hover{
+    background: #DC3E22;
+    color: #fff;
+}
+
+.disable{
+    color: #C4C4C4;
+    border: 2px solid #c4c4c4;
+    background: #F4F4F4;
+
+}

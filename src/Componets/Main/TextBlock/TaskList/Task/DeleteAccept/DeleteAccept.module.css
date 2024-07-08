@@ -1,0 +1,64 @@
+.acceptContainer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accept{
+    padding: 25px 0;
+    position: relative;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accept>*{
+    margin: 0px 80px;
+}
+.title{
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-bottom: 25px;
+}
+.deleteBtn{
+    padding: 20px 50px;
+    color: #FFFFFF;
+    background:  #DC3E22;
+    margin-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.deleteBtn:hover{
+    background: #a72f1a;
+}
+.dontBtn{
+    box-sizing: border-box;
+    background: none;
+    font-size: 18px;
+    border-bottom: 1px solid #333333;
+    padding: 0px;
+    font-weight: 300;
+}
+.dontBtn:hover{
+    font-weight: 400;
+
+
+}
+.closeBtn{
+    background: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+    transform: translateX(50%) translateY(-50%);
+}
+.closeBtn:hover *{
+    fill: #333333;
+}

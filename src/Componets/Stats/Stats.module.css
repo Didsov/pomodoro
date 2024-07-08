@@ -1,0 +1,77 @@
+.stats{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    margin: 100px 0;
+
+}
+.title{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    margin-bottom: 16px;
+}
+
+.grafs{
+    display: flex;
+    height: 100%;
+    flex: 1;
+
+}
+.grafs > * {
+    flex: 1;
+}
+
+
+.graficContainer{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    min-height: 100%;
+}
+.graficContainer>*{
+    height: 100%;
+    width: 100%;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.sideBar{
+    display: flex;
+    flex-direction: column;
+   max-width: 296px;
+}
+.sideBar >*{
+    margin: 16px 16px 16px 0;
+}
+.sideBar >*:first-child{
+    margin-top: 0;
+    flex: 4 ;
+}
+.sideBar >*:last-child{
+    display: flex;
+    flex:3;
+
+}
+
+
+.Plates{
+    max-height: 180px;
+    display: flex;
+
+}
+.Plates>*{
+    margin: 16px 16px 0px 16px;
+    flex: 1;
+}
+
+.Plates>*:first-child{
+    margin-left: 0px;
+}
+.Plates>*:last-child{
+    margin-right: 0px;
+}

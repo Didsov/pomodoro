@@ -1,0 +1,75 @@
+.btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 28px;
+    width: 28px;
+    padding: 0;
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    padding: 2px;
+}
+.btn:focus{
+    outline: none;
+
+
+
+}
+
+.btn:hover{
+    background: #C4C4C4;
+    
+
+}
+.btn:hover * {
+    fill: #fff;
+
+}
+.container{
+    height: 30px;
+    width: auto;
+    position: relative;
+    
+}
+.DropdownList::after {
+    content: "";
+    top: 0px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 25px;
+    height: 14.4px;
+    background: #fff;
+}
+.DropdownList::before {
+    content: "";
+    z-index: 0;
+    top: -7.5px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);;
+    position: absolute;
+    width: 14.4px;
+    height: 14.4px;
+    border: 1px solid #C4C4C4;
+    background: #fff;
+}
+.DropdownList{
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: auto;
+    border: 1px solid #C4C4C4;
+    background: #fff;
+    padding: 6px 0;
+
+}
+
+.DropdownList li{
+    list-style: none;
+}

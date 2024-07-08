@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+.logoTitle{
+    font-family: SF UI Display;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #DC3E22;
+    margin-left: 12px;
+
+
+}

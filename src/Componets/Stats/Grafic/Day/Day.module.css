@@ -1,0 +1,46 @@
+.day{
+    width: 77px;
+    height: 5px;
+    background: #EA8979;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+
+}
+.day.active{
+    background: #DC3E22;
+    cursor: auto;
+}
+.day.active:hover{
+    background: #DC3E22;
+
+}
+.day.active:hover .dayName{
+    color: #DC3E22;
+
+}
+
+.day:hover{
+    background: #EE735D;
+}
+.day:hover .dayName{
+    color: #EE735D;
+
+}
+.disable{
+    background: #C4C4C4;
+
+}
+.dayName{
+    font-size: 24px;
+    color: #999999;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.today{
+    color: #DC3E22;
+}
